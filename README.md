@@ -8,8 +8,8 @@ A neural network is trained using this data and given an aribtrary statement fro
 ## How to use.
 from data import Scrape
 
-# If the data is already on the disk, `Scrape.read() `will just process that, else the data will be scraped.'''
+### If the data is already on the disk, `Scrape.read() `will just process that, else the data will be scraped.'''
 my_scraped_data = Scrape.read()
 
-# Cleans as well as vectorizes the data and puts stores it in the data structure.
+### Cleans as well as vectorizes the data and puts stores it in the data structure.
 processed_data = Process.data_init(my_scraped_data) 
