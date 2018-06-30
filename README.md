@@ -3,7 +3,7 @@ A machine learning based lie detector primarily built for fact checking in the c
 
 ## How it works.
 Via a built-in scraper, it collects data, a "data of lies" if you will, from "politic fact" (http://www.politifact.com/truth-o-meter/statements). 
-A neural network is trained using this data and given an aribtrary statement from the news, it determines whether or not the said statement is true.
+A neural network is trained using this data and given an arbitrary statement from the news, it determines whether or not the said statement is true.
 
 ## How to use.
 from data import Scrape
